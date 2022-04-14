@@ -58,11 +58,41 @@ a, a:hover, a:active, a:link, a:visited{
 	justify-content: space-between;
 	max-width: 960px;
 	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.menu__logo{
+	margin: 10px;
+}
+
+.nav__list{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav__link{
+	padding: 20px 10px;
 }
 
 /**********************************/
 /* 3. Header
 /**********************************/
+
+.intro{
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+hr{
+	border: none;
+	background-color: var(--clr-pink-dark);
+	height: 2px;
+	width: 140px;
+	margin: 20px auto;
+}
 
 /**********************************/
 /* 4. Quem somos
